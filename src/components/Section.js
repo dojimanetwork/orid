@@ -1,8 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Section({ data }) {
+  useEffect(() => {
+    AOS.init({
+      delay: 300,
+      duration: 800,
+    });
+  });
+
   return (
     <div
       className={`w-full text-text flex ${
@@ -14,6 +24,8 @@ function Section({ data }) {
         width={452.5}
         height={541}
         alt={data.img}
+        data-aos="zoom-in-up"
+        data-aos-duration={500}
         className="object-contain xl:w-[452.5px] xl:h-[541px] w-[276.3px] h-[305px] md:w-[350px] md:h-[400px]"
       />
       <article className="flex flex-col space-y-6 xl:mt-0 mt-8 xl:items-start text-center md:text-start items-center md:items-start">

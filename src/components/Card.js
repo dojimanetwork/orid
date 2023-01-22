@@ -1,9 +1,22 @@
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Card({ data }) {
+  useEffect(() => {
+    AOS.init({
+      delay: 300,
+      duration: 800,
+    });
+  });
   return (
-    <div className="flex flex-col bg-card hover:bg-[#2B315A] group hover:scale-105 transition-all max-w-sm space-y-8 rounded-[30px] font-outfit items-center px-10 py-16 relative md:mt-0 mt-5">
+    <div
+      data-aos="zoom-in-up"
+      data-aos-duration={500 * data.id}
+      className="flex flex-col bg-card hover:bg-[#2B315A] group hover:scale-105 transition-all max-w-sm space-y-8 rounded-[30px] font-outfit items-center px-10 py-16 relative md:mt-0 mt-5"
+    >
       <Image
         src={`/testimonials/${data.img}`}
         width={100}
