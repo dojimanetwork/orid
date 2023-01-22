@@ -1,6 +1,6 @@
 # DOCUMENTATION
 
-<img src="https://s3-alpha.figma.com/hub/file/2798986030/7e1f5a85-2047-40f6-a473-37603c802edc-cover.png"/>
+<img src="https://i.postimg.cc/C51ymGLt/7e1f5a85-2047-40f6-a473-37603c802edc-cover.png"/>
 
 ## ABOUT
 NFT Krypto, a landing page made using TailwindCSS and Next JS, this landing is responsive and is a slicing of the design that I took from the Aman Singh Bhogal's Design
