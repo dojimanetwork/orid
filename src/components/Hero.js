@@ -1,8 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Hero() {
+  useEffect(() => {
+    AOS.init({
+      delay: 300,
+      duration: 800,
+    });
+  });
+
   return (
     <div className="w-full text-text font-outfit pt-[10vh] md:pt-[2.5vh]">
       <div class="xl:max-w-5xl mx-auto flex md:flex-row md:justify-between items-center space-x-18 px-10 xl:px-0 flex-col-reverse">
@@ -34,6 +44,8 @@ function Hero() {
           alt="Hero Image"
           width={495}
           height={467}
+          data-aos="zoom-in-up"
+          data-aos-duration="1000"
           className="-mr-10 w-[250.5px] h-[230px] md:w-[495px] md:h-[467px]"
         />
       </div>
