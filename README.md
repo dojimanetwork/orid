@@ -1,38 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DOCUMENTATION
 
-## Getting Started
+<img src="https://s3-alpha.figma.com/hub/file/2798986030/7e1f5a85-2047-40f6-a473-37603c802edc-cover.png"/>
 
-First, run the development server:
+## ABOUT
+NFT Krypto, a landing page made using TailwindCSS and Next JS, this landing is responsive and is a slicing of the design that I took from the Aman Singh Bhogal's Design
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## START PROJECT
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+If you want to run in your local do the steps below :
+- Download or clone this project and save to your local 
+- Run `npm install` to install all packages needed
+- Then, you can run command `npm run dev` or `yarn run dev` to start your next js server and see how it works
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## DESIGN
+- You can download free the UI/UX Design to Slicing this responsive portfolio website to DIY in <a href="https://www.figma.com/community/file/1188263961246625436">Aman Singh Bhogal's Design</a>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## RESULT
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<div style="display: flex;">
+  <img src="https://i.postimg.cc/yd4T8sZ8/mobile-krypto.png" style="margin-right: 3rem;" />
+  <img src="https://i.postimg.cc/cCDYwSrY/desktop-krypto.png"/>
+</div>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
