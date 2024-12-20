@@ -5,23 +5,23 @@ import React from "react";
 const menus = [
   {
     id: 1,
-    name: "krypto",
+    name: "ORID",
     items: [
-      { id: 1, name: "home", href: "/" },
-      { id: 2, name: "about", href: "/about" },
-      { id: 3, name: "buy nfts", href: "/buy-nfts" },
-      { id: 4, name: "sell nfts", href: "/sell-nfts" },
+      { id: 1, name: "About", href: "/" },
+      { id: 2, name: "Our Vision", href: "/" },
+      
+      
     ],
   },
-  {
-    id: 2,
-    name: "market",
-    items: [
-      { id: 1, name: "browse nfts", href: "/browse-nfts" },
-      { id: 2, name: "buy nfts", href: "/buy-nfts" },
-      { id: 3, name: "sell nfts", href: "/sell-nfts" },
-    ],
-  },
+  // {
+  //   id: 2,
+  //   name: "market",
+  //   items: [
+  //     { id: 1, name: "browse nfts", href: "/browse-nfts" },
+  //     { id: 2, name: "buy nfts", href: "/buy-nfts" },
+  //     { id: 3, name: "sell nfts", href: "/sell-nfts" },
+  //   ],
+  // },
   {
     id: 3,
     name: "contact",
@@ -39,7 +39,7 @@ function Footer() {
     <div className="w-full text-text h-[100px] mt-28">
       <div class="xl:max-w-5xl mx-auto flex xl:flex-row xl:space-x-20 px-10 xl:px-0 xl:justify-between flex-col items-center md:items-start xl:space-y-0 space-y-8">
         <h1 className="text-[20px] w-fit uppercase font-[600] leading-[27.5px]">
-          Krypto
+          ORID
         </h1>
 
         <div class="flex-row flex items-start space-x-16 justify-start content-start">

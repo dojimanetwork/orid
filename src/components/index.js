@@ -6,5 +6,6 @@ import AreYouReady from "./AreYouReady";
 import Testimonial from "./Testimonial";
 import Card from "./Card";
 import Footer from "./Footer";
+import KeyFeatures from "./KeyFeatures";
 
-export { Navbar, Hero, Featured, Section, AreYouReady, Card, Footer };
+export { Navbar, Hero, Featured, Section, KeyFeatures ,Testimonial, AreYouReady, Card, Footer };

@@ -19,8 +19,8 @@ function Card({ data }) {
     >
       <Image
         src={`/testimonials/${data.img}`}
-        width={100}
-        height={100}
+        width={150}
+        height={200}
         alt={data.name}
         className="rounded-full absolute -top-10 right-0 left-0 mx-auto"
       />

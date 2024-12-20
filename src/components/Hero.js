@@ -18,35 +18,34 @@ function Hero() {
       <div class="xl:max-w-5xl mx-auto flex md:flex-row md:justify-between items-center space-x-18 px-10 xl:px-0 flex-col-reverse">
         <article className="flex flex-col space-y-10 text-center md:text-left">
           <h1 className="text-[3rem] md:text-[4rem] font-bold leading-[110%]">
-            discover and collect <span className="text-label">rare</span> NFTs
+          Seamless Decentralized <span className="text-label">Identity</span> Management
           </h1>
           <p className="font-outfit text-[18px] md:text-[20px] font-[400] leading-[27.5px]">
-            the most secure marketplace for buying and selling unique crypto
-            assets
+          ORID unifies decentralized identities across blockchains, offering a secure, streamlined solution for seamless interactions and simplified DID management.
           </p>
           <span className="flex xl:flex-row font-outfit items-center justify-center md:justify-start space-x-7 font-[600] text-[16px] xl:text-[20px] leading-[27.5%] uppercase">
-            <Link
+            {/* <Link
               href="/but-nfts"
               className="w-fit py-5 px-5 xl:px-10 bg-buttonPrimary rounded-full"
             >
               Buy Nfts
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               href="/sell-nfts"
               className="w-fit py-5 px-5 xl:px-10 border-outline border rounded-full"
             >
               Sell Nfts
-            </Link>
+            </Link> */}
           </span>
         </article>
         <Image
-          src="/hero_image.png"
+          src="/hero_image.jpg"
           alt="Hero Image"
           width={495}
           height={467}
           data-aos="zoom-in-up"
           data-aos-duration="1000"
-          className="-mr-10 w-[250.5px] h-[230px] md:w-[495px] md:h-[467px]"
+          className="-mr-10 w-[250.5px] h-[230px] md:w-[495px] md:h-[467px] rounded-lg"
         />
       </div>
     </div>

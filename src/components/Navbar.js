@@ -3,9 +3,9 @@ import Link from "next/link";
 import React from "react";
 
 const menus = [
-  { name: "about", href: "/about" },
-  { name: "pricing", href: "/pricing" },
-  { name: "contact", href: "/contact" },
+  { name: "About", href: "/" },
+  { name: "Our Vision", href: "/" },
+  { name: "Contact Us", href: "/" },
 ];
 
 function Navbar({ bg }) {
@@ -17,7 +17,7 @@ function Navbar({ bg }) {
     >
       <div class="xl:max-w-5xl mx-auto flex flex-row justify-between h-[100px] items-center px-10 xl:px-0">
         <h1 className="text-[20px] uppercase font-[600] leading-[27.5]">
-          Krypto
+          ORID
         </h1>
         <ul className="hidden md:flex md:flex-row md:space-x-12 md:items-center">
           {menus.map((menu, index) => (
@@ -26,7 +26,7 @@ function Navbar({ bg }) {
             </li>
           ))}
           <li className="font-[600]">
-            <Link
+            {/* <Link
               href="/buy-nfts"
               className="flex flex-row items-center w-fit pr-3 bg-buttonPrimary justify-center rounded-full"
             >
@@ -37,7 +37,7 @@ function Navbar({ bg }) {
                 height={42}
               />
               <span>buy nfts</span>
-            </Link>
+            </Link> */}
           </li>
         </ul>
         <Image
