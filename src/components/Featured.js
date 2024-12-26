@@ -11,7 +11,7 @@ function Featured() {
         <div class="flex flex-row items-center justify-center space-x-16 mt-8 overflow-x-auto md:overflow-visible scrollbar-hide md:px-0 px-48">
           <Link href = "https://www.dojima.foundation/" target="_blank">
           <Image
-            src="/featureds/dojima-logo.png"
+            src="/featureds/dojima-logo.jpeg"
             alt="Featured 1"
             width={100}
             height={100}
